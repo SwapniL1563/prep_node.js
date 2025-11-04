@@ -1,15 +1,15 @@
 // Model View Controller (MVC) in Node.js is software design pattern that separates an app into 3 comp:
-// 1) Model(data layer) 
+// 1) Model (data layer) 
 // - manages data and rules of app
 // - interact with db (Mongodb)
 // - eg. user Model defines schema and db operations
 
 // 2) View (presentaion layer) 
-// - represent what users see -> ui templates or json responses ( for api)
+// - represent what users see -> ui templates or json responses (for api)
 // - in REST api , view is jsut JSON resonse not HTML
 
-// 3) Controller(application layer)
-// - handles client req , interact with models, selects view and send res
+// 3) Controller (application layer)
+// - handles client req, interact with models, selects view and send res
 // - bridge between Model and View
 
 // 4) Express Route 
@@ -23,7 +23,7 @@
 
 // Why MVC is better than putting every thing in one file?
 // 1) separation of concerns
-// 2) scalability -> easy to add more mode.view,controller
+// 2) scalability -> easy to add more mode.view, controller
 // 3) reusabilty and maintainablity unlike one file
 
 // What is considered as View?

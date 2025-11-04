@@ -1,10 +1,10 @@
 //  Streams -> it is way to handle reading or writting data in chunks, instead of sending it at once
 //  If u have huge file like sample.txt whose size is big(400mb)
-//  If u read a huge file at once using fs.reafFile , it load the entire file into memory -> can crash for larger files
+//  If u read a huge file at once using fs.readFile , it load the entire file into memory -> can crash for larger files
 
-//  But using stream u process that data piece by piece
+// But using stream u process that data piece by piece
 
-//  eg. Reading a file without  using a stream
+// eg. Reading a file without  using a stream
 
 // const express = require("express");
 // const fs = require('fs');
@@ -22,8 +22,8 @@
 
 // app.listen(3000, () => console.log("Server started"));
 
-//  here, all data is ent at once leading to high memory usage 
-//  also we are storing data in local var before sending it to res
+// here, all data is ent at once leading to high memory usage 
+// also we are storing data in local var before sending it to res
 
 // Example: Reading a file using a stream
 

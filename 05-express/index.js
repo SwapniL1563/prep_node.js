@@ -1,5 +1,5 @@
 // Express - lightweight and minimal framework for node.js 
-// it is built on nodejs http module allow us to create server easily
+// it is built on node.js http module allow us to create server easily
 // handles routing,middleware, req/res management 
 
 // why is express used?

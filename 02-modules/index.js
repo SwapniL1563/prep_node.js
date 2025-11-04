@@ -1,7 +1,7 @@
 // what are modules in node.js?
 
-// In node.js are reusable blick of code that can be exported from one file and import in another file
-// hepls in avoid code repition and organize code
+// In node.js are reusable block of code that can be exported from one file and import in another file
+// hepls in avoid code repetition and organize code
 
 // similar to lego blocks - small pieces combine to make bigger application.
 
@@ -39,7 +39,7 @@ app.listen(3000);
 // Q - What is the difference between CommonJS (require) and ES6 modules (import/export) in Node.js?
 
 // There are two module systems in Node.js
-// Commonjs - old and deafault system that uses require and module.exports syntax
+// Commonjs - old and default system that uses require and module.exports syntax
 // It loads synchronously at runtime and fully dynamic can be require conditionally
 // module.exports  - only one object can be exported
 // syntax: 
@@ -48,7 +48,7 @@ module.exports = { myFunc };
 
 // ES6 Modules - modern way that use import and export syntax.
 // It loads async , statically analyzed and support both name and default export.
-// It alos require .mjs extension or "type":"module" in packae.json to use
+// It also require .mjs extension or "type":"module" in package.json to use
 // syntax:
 import fs from "fs";
 export const myFn = () => {};
@@ -93,7 +93,7 @@ import { add } from './utils.js';
 console.log(add(2, 3));
 
 // without tree shaking -> the bundle may include sub,mul fn -> even if they are not used
-// with tree shalking using bundler like webpack -> analyze the import and include only add , dropping sub and mul hence avoid bloating;
+// with tree shalking using bundler like webpack -> analyze the import and include only add, dropping sub and mul hence avoid bloating.
 
 // Real-world Analogy
 

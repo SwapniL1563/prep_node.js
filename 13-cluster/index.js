@@ -4,7 +4,7 @@
 
 // why use cluster?
 // we know node.js is single threaded, by default it uses only one CPU core or thread
-// cluster helps scale node.js app horizontally on single machine by creating multiple worker process running on sep cores hanling more concurrent req and high-traffic
+// cluster helps scale node.js app horizontally on single machine by creating multiple worker process running on sep cores handling more concurrent req and high-traffic
 
 // working:
 // master process: control and manage worker process
@@ -20,7 +20,7 @@ const PORT = 8000;
 
 const numCPUs = os.cpus().length;
 
-if(cluster.isPrimary) {
+    if(cluster.isPrimary) {
     console.log(`Master ${process.pid} is running`) 
 
     //  fork process to worker

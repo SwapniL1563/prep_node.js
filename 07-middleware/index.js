@@ -1,4 +1,4 @@
-// middleware - a fn  that runs between req and res cycle.
+// middleware - a fn that runs between req and res cycle.
 // It can access req,res, and next fn to either:
 // - process the req 
 // - modify the data

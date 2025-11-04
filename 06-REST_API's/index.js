@@ -9,7 +9,7 @@
 // server: provides resources, handles data storage, processing and logic 
 // The server and client should operate independently
 
-// cleint make http req to rest api, server rprocess the req( crud operation)
+// client make http req to rest api, server rprocess the req(crud operation)
 // server responds with json data or status code
 
 // analogy: client - customer, server - kitchen
@@ -17,7 +17,7 @@
 // 2) REST API is Stateless
 
 // stateless means it does ot store any client session state(info) on server between req
-// each req is self-contained carrying all info about auth,param and data.
+// each req is self-contained carrying all info about auth, param and data.
 
 // eg . if  when client req GET /users/1 with JWT, server respond with user data without remembering previous req.
 

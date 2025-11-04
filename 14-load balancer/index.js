@@ -1,4 +1,4 @@
-// load balancer - it is a system that distributes incoming network traffic across multiple servers or resources to ensure reliabilty,effeciency and high availabilty
+// load balancer - it is a system that distributes incoming network traffic across multiple servers or resources to ensure reliabilty,efficiency and high availabilty
 
 // It acts like a bridge between client and server like a traffic manger - deciding which server should handle req
 

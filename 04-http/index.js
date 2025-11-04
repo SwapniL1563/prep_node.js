@@ -1,7 +1,13 @@
-// http - core module in npde.js that allow us to create server and handle http req and res
+// http - core module in node.js that allow us to create server and handle http req and res
 // we can creat a simple server using http.createServer and listen on port and also handle http methods like GET, POST.
 
 // eg. server
+
+const http = require("http");
+
+const server = http.createServer((req,res) => {
+  res.end("Server Started")
+})
 
 // const http = require("http");
 
@@ -17,8 +23,8 @@
 // like GET, POST, PUT, UPDATE, DELETE
 
 // GET -> retrieve data from server
-// POST -> create or send data to server;
-// PUT -> update/replace a resource completely
+// POST -> create or send data to server
+// PUT -> update / replace a resource completely
 // PATCH -> partial update
 // DELETE -> remove a resource 
 // OPTIONS -> ask what methods are allowed(Pre-flight request in CORS.)
